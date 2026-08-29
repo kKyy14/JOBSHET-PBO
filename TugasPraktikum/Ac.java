@@ -2,8 +2,7 @@ package TugasPraktikum;
 
 public class Ac extends Elektronik {
     private int suhuCelcius;
-    private int dayaPK; // ukuran PK, misal 1, 1.5 dibulatkan ke int sebagai representasi sederhana
-
+    private int dayaPK; 
     public void setSuhuCelcius(int suhu) {
         suhuCelcius = suhu;
     }
