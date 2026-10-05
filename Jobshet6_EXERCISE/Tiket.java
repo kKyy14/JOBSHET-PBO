@@ -1,0 +1,28 @@
+package Jobshet6_EXERCISE;
+
+public class Tiket {
+    protected String kodeTiket, namaPenumpang, asal, tujuan;
+    private int hargaDasar;
+
+    public int getHargaDasar() {
+        return hargaDasar;
+    }
+    public void setHargaDasar(int hargaDasar) {
+        this.hargaDasar = hargaDasar;
+    }
+    public Tiket() {
+    }
+    public Tiket(String kodeTiket, String namaPenumpang, String asal, String tujuan, int hargaDasar) {
+        this.kodeTiket = kodeTiket;
+        this.namaPenumpang = namaPenumpang;
+        this.asal = asal;
+        this.tujuan = tujuan;
+        this.hargaDasar = hargaDasar;
+    }
+    public void tampilTiket() {
+        System.out.println("Kode Tiket     = " + kodeTiket);
+        System.out.println("Nama Penumpang = " + namaPenumpang);
+        System.out.println("Rute           = " + asal + " - " + tujuan);
+        System.out.println("Harga Dasar    = " + hargaDasar);
+    }
+}
