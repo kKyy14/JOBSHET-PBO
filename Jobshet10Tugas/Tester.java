@@ -10,7 +10,7 @@ public class Tester {
         System.out.println(""+jz.getZombieInfo());
         System.out.println(""+b.getBarrierInfo());
         System.out.println("----------------------");
-        for (int i = 0; i < 4; i++) { // Destroy the enemies 4 times
+        for (int i = 0; i < 4; i++) { //Destroy the enemies 4 times
             p.doDestroy(wz);
             p.doDestroy(jz);
             p.doDestroy(b);
