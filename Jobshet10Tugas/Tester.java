@@ -1,7 +1,7 @@
 package jobshet10Tugas;
 
 public class Tester {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         WalkingZombie wz = new WalkingZombie(100, 1);
         JumpingZombie jz = new JumpingZombie(100, 2);
         Barrier b = new Barrier(100);

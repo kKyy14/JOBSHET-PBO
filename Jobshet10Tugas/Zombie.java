@@ -1,6 +1,6 @@
 package jobshet10Tugas;
 
-public abstract class Zombie implements Destroyable{
+public abstract class Zombie implements Destroyable {
     protected int health;
     protected int level;
 

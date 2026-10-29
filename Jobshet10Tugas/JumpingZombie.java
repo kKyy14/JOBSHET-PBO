@@ -20,7 +20,7 @@ public class JumpingZombie extends Zombie {
     @Override
     public String getZombieInfo() {
         return "Jumping Zombie Data =\n"+
-               "Health = "+health+"\n" +
+               "Health = "+health+"\n"+
                "Level = "+level+"\n";
     }
 }
