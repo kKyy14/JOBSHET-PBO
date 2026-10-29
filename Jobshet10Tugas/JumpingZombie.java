@@ -1,4 +1,4 @@
-package Jobshet10Tugas;
+package jobshet10Tugas;
 
 public class JumpingZombie extends Zombie {
     public JumpingZombie(int health, int level) {

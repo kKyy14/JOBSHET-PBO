@@ -1,4 +1,4 @@
-package Jobshet10Tugas;
+package jobshet10Tugas;
 
 public class Barrier implements Destroyable {
     private int strength;

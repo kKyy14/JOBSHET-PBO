@@ -1,4 +1,4 @@
-package Jobshet10Tugas;
+package jobshet10Tugas;
 
 public abstract class Zombie implements Destroyable{
     protected int health;
